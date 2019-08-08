@@ -2,7 +2,6 @@
 var ACTION_TIMES = 3;
 class Action {
 	constructor(a){
-		console.log("ok");
 		this.acterPosition = a;				
 	}
 	get ActerPosition(){
