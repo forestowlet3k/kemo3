@@ -15,4 +15,4 @@ var actionList = [];
 actionList[0] = new Action(9);
 document.write("おかわり：" + okawari_cent/100);
 document.test.elements.名前.style.resize ="none";
-document.test.elements.名前.value +="\nあ";
+document.test.elements.button1.onclick = function(){document.test.elements.名前.value +="\nあ";};
